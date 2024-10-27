@@ -1,5 +1,4 @@
 body {
-    border: 1px solid;
     height: 800px;
     display: flex;
     flex-direction: column;
@@ -9,8 +8,50 @@ body {
 .footer {
     height: 80px;
     color: white;
-    background-color: #1F2937;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.header {
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.logo {
+    margin-left: 150px;
+}
+
+.header-links {
+    margin-right: 150px;
+    margin-top: 25px;
+}
+
+.subheader {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* * {
+    border: 1px solid white;
+} */
+
+.hero {
+    margin-left: 150px
+}
+
+.stock {
+    margin-right: 150px
 }
